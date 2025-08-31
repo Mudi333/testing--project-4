@@ -43,7 +43,9 @@ export default function Contact() {
 
   return (
     <div className="contact-section">
+
       <h1>Contact</h1>
+      <h3>Please submit your data here</h3>
       <form id="contact" onSubmit={handleSubmit}>
         <section className="contact-form-section">
           <div>
